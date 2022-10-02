@@ -4,8 +4,12 @@ public class Calculator {
     public static void main(String[] args) {
         System.out.println("My Calculator");
 
-        MyClass obj = new MyClass();
-        System.out.println(obj.multiplyByHundred(1337));
+//        MyClass obj = new MyClass();
+//        System.out.println(obj.getValue());
+//        obj.multiplyByHundred(37);
+//        System.out.println(obj.getValue());
+
+        MyClass myObject = new MyClass();
 
         // Used to store user input
         int a = 0;
@@ -29,16 +33,16 @@ public class Calculator {
 
         switch (operation) {
             case "+":
-                System.out.println("Addition = " + add(a,b));
+                System.out.println("Addition = " + myObject.add(a,b));
                 break;
             case "-":
-                System.out.println("Subtraction = " + subtract(a,b));
+                System.out.println("Subtraction = " + myObject.subtract(a,b));
                 break;
             case "*":
-                System.out.println("Multiplication = " + multiply(a,b));
+                System.out.println("Multiplication = " + myObject.multiply(a,b));
                 break;
             case "/":
-                System.out.println("Division = " + divide(a,b));
+                System.out.println("Division = " + myObject.divide(a,b));
                 break;
             default:
                 System.out.println("No operation specified");
@@ -46,23 +50,4 @@ public class Calculator {
         }
     }
 
-    // Performs addition
-    public static int add(int a, int b){
-        return a+b;
-    }
-
-    // Performs subtraction
-    public static int subtract(int a, int b){
-        return a-b;
-    }
-
-    // Performs multiplication
-    public static int multiply(int a, int b){
-        return a*b;
-    }
-
-    // Performs division
-    public static int divide(int a, int b){
-        return a/b;
-    }
 }
