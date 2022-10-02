@@ -4,6 +4,9 @@ public class Calculator {
     public static void main(String[] args) {
         System.out.println("My Calculator");
 
+        MyClass obj = new MyClass();
+        System.out.println(obj.multiplyByHundred(1337));
+
         // Used to store user input
         int a = 0;
         int b = 0;
