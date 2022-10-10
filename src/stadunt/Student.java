@@ -1,15 +1,22 @@
 package stadunt;
 
 public class Student {
-    private int studentId;
-    private String firstName;
-    private String lastName;
-    private int grade;
-    private int rollNo;
+   int studentId;
+ String firstName;
+   String lastName;
+     int grade;
+    int rollNo;
 
+    public Student(int studentId, String firstName, String lastName, int grade, int rollNo) {
+        this.studentId = studentId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.grade = grade;
+        this.rollNo = rollNo;
+    }
 
-    void createStudent(){
-        System.out.println("**Student Details");
+    void StudentInfo(){
+        System.out.println("=========================================");
         System.out.println(this.studentId);
         System.out.println(this.firstName);
         System.out.println(this.lastName);
@@ -17,28 +24,22 @@ public class Student {
         System.out.println(this.rollNo);
 
     }
-    public static void main(String args[]){
-        Student stnt1=new Student();
-        stnt1.studentId=36;
-        stnt1.firstName="Harry";
-        stnt1.lastName="Basnet";
-        stnt1.grade=5;
-        stnt1.rollNo=01;
+    public static void main(String [] args){
+        Student stnt1=new Student(10,"paude ","magar",5,10 );
 
 
-        System.out.println(stnt1.getClass().getName());
-        stnt1.createStudent();
 
 
-        Student stnt2=new Student();
-        stnt2.studentId=4;
-        stnt2.firstName="laxman";
-        stnt2.lastName="Rai";
-        stnt2.grade=4;
-        stnt2.rollNo=1;
+        stnt1.StudentInfo();
 
-        stnt2.createStudent();
 
+
+
+        Student sdnt2=new Student(2,"gopal","Basnet",3,10);
+        sdnt2.StudentInfo();
+
+        Student S3 = new Student(2,"ram","chandra",4,10);
+        S3.StudentInfo();
 
     }
 
