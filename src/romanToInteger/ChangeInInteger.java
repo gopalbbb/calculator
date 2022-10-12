@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class ChangeInInteger {
-    Scanner Sc =new Scanner(System.in);
+
     public int romanToInt(String s){
         Map<Character,Integer> map=new HashMap<>();
         map.put('I',1);

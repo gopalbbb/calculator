@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="13f3b427-44be-494d-b7f7-2767e83d2cbc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stadunt/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stadunt/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/indexOfLastWord/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indexOfLastWord/LengthOfLastWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/romanToInteger/ChangeInInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/romanToInteger/ChangeInInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tictoctoe/Tictactoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tictoctoe/Tictactoe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +41,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.stadunt.Student">
-    <configuration name="Ball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stadunt.Ball" />
+  <component name="RunManager" selected="Application.Tictactoe">
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="indexOfLastWord.LengthOfLastWord" />
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stadunt.*" />
+          <option name="PATTERN" value="indexOfLastWord.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="indexOfLastWord.LengthOfLastWord" />
+    <configuration name="MultiplicationOfMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrix.MultiplicationOfMatrix" />
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="indexOfLastWord.*" />
+          <option name="PATTERN" value="matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.stadunt.Student" />
-        <item itemvalue="Application.LengthOfLastWord" />
-        <item itemvalue="Application.Teacher" />
-        <item itemvalue="Application.Ball" />
         <item itemvalue="Application.Tictactoe" />
+        <item itemvalue="Application.MultiplicationOfMatrix" />
+        <item itemvalue="Application.LengthOfLastWord" />
+        <item itemvalue="Application.stadunt.Student" />
+        <item itemvalue="Application.Teacher" />
       </list>
     </recent_temporary>
   </component>

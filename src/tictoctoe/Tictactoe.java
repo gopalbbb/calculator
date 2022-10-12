@@ -115,7 +115,7 @@ public class Tictactoe {
         List cross1= Arrays.asList(1,5,9);
         List cross2= Arrays.asList(7,5,3);
 
-
+//for containsAll
         List<List>winning=new ArrayList<List>();
         winning.add(topRow);
         winning.add(midRow);
@@ -133,7 +133,7 @@ public class Tictactoe {
             }else if(cpuPositions.containsAll(l)){
                 return "CPU wins!Sorry:(";}
             else if(playerPositions.size()+cpuPositions.size()==9)
-            {return"CAT!";
+            {return"oops!";
             }
 
         }

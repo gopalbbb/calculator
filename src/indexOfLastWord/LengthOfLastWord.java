@@ -2,7 +2,7 @@ package indexOfLastWord;
 
 public class LengthOfLastWord {
 
-    public int LengthOfLastWorld(String s) {
+    public int lengthOfLastWorld(String s) {
         int len = s.length();
         int count = 0;
         while (len > 0) {
@@ -16,7 +16,7 @@ public class LengthOfLastWord {
 
         public static void main(String[]args){
             LengthOfLastWord obj = new LengthOfLastWord();
-            System.out.println("This is an apple --> " + obj.LengthOfLastWorld("This is an apple"));
+            System.out.println("This is an apple --> " + obj.lengthOfLastWorld("This is an apple ."));
 
         }
     }
